@@ -39,7 +39,6 @@ def login(options,driver):
 
 def follow(options, driver):
     hashtag_list = (options.hashtag).split(",")
-    print(hashtag_list)
 
     prev_user_list = [] # this one is for the first run. On the following, you could get an activity log csv
     # prev_user_list = pd.read_csv('20181203-224633_users_followed_list.csv', delimiter=',').iloc[:,
@@ -64,14 +63,11 @@ def follow(options, driver):
             for x in range(1, options.num):
                 username = driver.find_element_by_xpath(
                     '/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[1]/a').text
-                print(username)
 
                 if username not in prev_user_list:
                     # If we already follow, do not unfollow
                     if driver.find_element_by_xpath(
                             '/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button').text == 'Follow':
-
-                        print('About to follow')
 
                         follow_button = driver.find_element_by_xpath(
                             '/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button')
@@ -84,7 +80,6 @@ def follow(options, driver):
                         button_like = driver.find_element_by_xpath(
                             '/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]/button')
 
-                        print('About to like a photo')
                         button_like.click()
                         likes += 1
                         sleep(randint(18, 25))
@@ -98,7 +93,6 @@ def follow(options, driver):
         # some hashtag stops refreshing photos (it may happen sometimes), it continues to the next
         except Exception as e:
             print(e)
-            print('im out')
             continue
 
     for n in range(0, len(new_followed)):
