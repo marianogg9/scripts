@@ -1,0 +1,5 @@
+.google-cookie
+debug.log
+geckodriver.log
+venv
+.idea
