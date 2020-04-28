@@ -6,6 +6,9 @@
 
 **Installation** 
 
+For the web browser feature, I installed a chrome driver in Windows10 to test this script.
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
  This script uses the following libraries that need to be installed beforehand:
  * pandas
  * selenium
