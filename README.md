@@ -1,5 +1,3 @@
-https://dev.azure.com/marianog9/marianog9/_apis/build/status/marianogg9.scripts?branchName=master
-
 [![Build Status](https://dev.azure.com/marianog9/marianog9/_apis/build/status/marianogg9.scripts?branchName=master)](https://dev.azure.com/marianog9/marianog9/_build/latest?definitionId=1&branchName=master)
 
 This repo contains some scripts I wrote to solve a few minor tasks.
