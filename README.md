@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/marianog9/marianog9/_apis/build/status/marianogg9.scripts?branchName=master)](https://dev.azure.com/marianog9/marianog9/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/marianog9/marianog9/_apis/build/status/marianogg9.scripts?branchName=master)](https://dev.azure.com/marianog9/marianog9/_build/latest?definitionId=1&branchName=master) [![Build Status](https://travis-ci.org/marianogg9/scripts.svg?branch=master)](https://travis-ci.org/marianogg9/scripts)
 
 This repo contains some scripts I wrote to solve a few minor tasks.
 
