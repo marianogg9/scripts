@@ -1,7 +1,4 @@
 argparse
-sys
-random
-time
 pandas
 selenium
 bs4
