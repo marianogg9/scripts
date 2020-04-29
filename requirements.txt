@@ -2,5 +2,5 @@ argparse
 pandas
 selenium
 bs4
-googlesearch
+google
 urllib
